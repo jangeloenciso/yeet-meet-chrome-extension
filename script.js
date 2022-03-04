@@ -34,7 +34,7 @@ function main() {
         console.log('Yeet Meet running!');
 
         if (checkPage() == true) {
-            if (getNum() <= 2) {
+            if (getNum() <= 5) {
                 console.log('Leaving call.');
                 leaveCall();
             }
