@@ -14,13 +14,30 @@ function leaveCall() {
     exit.click();
 }
 
+function checkPage() {
+    if (
+        document.body.contains(
+            document.querySelector(
+                '#ow3 > div.T4LgNb > div > div:nth-child(9) > div.crqnQb > div.DAQYgc.xPh1xb.P9KVBf > div.rceXCe > div > div.NHaLPe.CoOyx > span > button'
+            )
+        )
+    ) {
+        return true;
+    }
+
+    console.log('Not yet joined');
+    return false;
+}
+
 function main() {
     setInterval(function () {
-        console.log('Yeet Meet initialized!');
+        console.log('Yeet Meet running!');
 
-        if (getNum() <= 2) {
-            console.log('Leaving call.');
-            leaveCall();
+        if (checkPage() == true) {
+            if (getNum() <= 2) {
+                console.log('Leaving call.');
+                leaveCall();
+            }
         }
     }, 10000);
 }
