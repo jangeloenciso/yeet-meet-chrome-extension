@@ -1,10 +1,10 @@
-// function getNum() {
-//     var num = document.querySelector(
-//         '#ow3 > div.T4LgNb > div > div:nth-child(9) > div.crqnQb > div.DAQYgc.xPh1xb.P9KVBf > div.MaVIwe > div.Ok4Bg > div > div > div:nth-child(2) > div > div'
-//     ).textContent;
+function getNum() {
+    var num = document.querySelector(
+        '#ow3 > div.T4LgNb > div > div:nth-child(9) > div.crqnQb > div.DAQYgc.xPh1xb.P9KVBf > div.MaVIwe > div.Ok4Bg > div > div > div:nth-child(2) > div > div'
+    ).textContent;
 
-//     // return num;
-// }
+    return num;
+}
 
 function leaveCall() {
     var exit = document.querySelector(
@@ -18,11 +18,8 @@ function main() {
     setTimeout(function () {
         console.log('Yeet Meet initialized!');
 
-        true_check = true;
-        var num = document.querySelector(
-            '#ow3 > div.T4LgNb > div > div:nth-child(9) > div.crqnQb > div.DAQYgc.xPh1xb.P9KVBf > div.MaVIwe > div.Ok4Bg > div > div > div:nth-child(2) > div > div'
-        ).textContent;
-        if (num <= 2) {
+        if (getNum() <= 2) {
+            console.log('Leaving call.');
             leaveCall();
         }
     }, 10000);
