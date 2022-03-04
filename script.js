@@ -15,7 +15,7 @@ function leaveCall() {
 }
 
 function main() {
-    setTimeout(function () {
+    setInterval(function () {
         console.log('Yeet Meet initialized!');
 
         if (getNum() <= 2) {
