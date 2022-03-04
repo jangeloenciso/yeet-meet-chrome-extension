@@ -1,19 +1,31 @@
-function getElementByXpath(path) {
-    return document.evaluate(
-        path,
-        document,
-        null,
-        XPathResult.FIRST_ORDERED_NODE_TYPE,
-        null
-    ).singleNodeValue;
+// function getNum() {
+//     var num = document.querySelector(
+//         '#ow3 > div.T4LgNb > div > div:nth-child(9) > div.crqnQb > div.DAQYgc.xPh1xb.P9KVBf > div.MaVIwe > div.Ok4Bg > div > div > div:nth-child(2) > div > div'
+//     ).textContent;
+
+//     // return num;
+// }
+
+function leaveCall() {
+    var exit = document.querySelector(
+        '#ow3 > div.T4LgNb > div > div:nth-child(9) > div.crqnQb > div.DAQYgc.xPh1xb.P9KVBf > div.rceXCe > div > div.NHaLPe.CoOyx > span > button'
+    );
+
+    exit.click();
 }
 
-var classesOrThings = document.getElementsByClassName(
-    'css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0'
-);
+function main() {
+    setTimeout(function () {
+        console.log('Yeet Meet initialized!');
 
-var num = document.querySelector(
-    '#ow3 > div.T4LgNb > div > div:nth-child(9) > div.crqnQb > div.DAQYgc.xPh1xb.P9KVBf > div.MaVIwe > div.Ok4Bg > div > div > div:nth-child(2) > div > div'
-).textContent;
+        true_check = true;
+        var num = document.querySelector(
+            '#ow3 > div.T4LgNb > div > div:nth-child(9) > div.crqnQb > div.DAQYgc.xPh1xb.P9KVBf > div.MaVIwe > div.Ok4Bg > div > div > div:nth-child(2) > div > div'
+        ).textContent;
+        if (num <= 2) {
+            leaveCall();
+        }
+    }, 10000);
+}
 
-alert(num);
+main();
