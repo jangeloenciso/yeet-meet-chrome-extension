@@ -2,11 +2,9 @@
 
 Chrome extension version of Yeet Meet (https://github.com/jangeloenciso/yeet-meet).
 
-The official extension is still under review in the chrome web store so for now you can manually install this in your chromium based browser by following the steps below.
+Beta Version is now available on the Chrome Web Store: https://tinyurl.com/YeetMeetChromeWebStore
 
-Beta Version is now available on the Chrome Web Store: https://chrome.google.com/webstore/detail/yeet-meet/jniaenjgcoajaaooejonkipkgfgojmnp
-
-## How to Use
+## How to Use [No longer relevant, the extension is now available in the chrome web store]
 
 - Download the zip file: https://tinyurl.com/YeetMeet
 - Extract the zip file to any destination/directory.
