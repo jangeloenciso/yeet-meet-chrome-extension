@@ -2,7 +2,7 @@
 
 Chrome extension version of Yeet Meet (https://github.com/jangeloenciso/yeet-meet).
 
-Beta Version is now available on the Chrome Web Store: https://tinyurl.com/YeetMeetChromeWebStore
+Beta Version is now available on the Chrome Web Store: https://chrome.google.com/webstore/detail/yeet-meet/jniaenjgcoajaaooejonkipkgfgojmnp
 
 ## How to Use [No longer relevant, the extension is now available in the chrome web store]
 
