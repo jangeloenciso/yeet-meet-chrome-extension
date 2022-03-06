@@ -10,8 +10,8 @@
         }
     ],
     "action": {
-        "default_icon": "icon2.png",
+        "default_icon": "./images/icon2.png",
         "default_popup": "popup.html"
     },
-    "permissions": ["tabs", "activeTab"]
+    "permissions": ["tabs", "activeTab", "scripting"]
 }
